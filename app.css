@@ -3,19 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-.nav{
+nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 18px;
-    color: aliceblue;
-    background-color: blueviolet;
+    padding: 12px 16px;
+    color: #ffffff;
+    background-color: blue;
 }
 .logo{
     flex: 1;
-    
 }
-.nav ul{
+nav ul{
     flex: 1;
     display: flex;
     justify-content: space-evenly;
@@ -125,15 +124,3 @@ input, button[type="submit"]{
     from{transform: rotate(0deg);}
     to{transform: rotate(360deg);}
 }
-
-
-
-
-
-.d-none{
-    display: none;
-}
-.v-none{
-    visibility: hidden;
-}
-
